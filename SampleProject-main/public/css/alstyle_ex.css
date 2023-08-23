@@ -1,0 +1,103 @@
+nav {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top:  0;
+  left: 0;
+}
+ul {
+  margin-top: 31px;
+  display: flex;
+}
+ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.sample2{
+    position:absolute;	
+    bottom:0.1%;
+    right:0px;
+  }
+  
+.sample2 p {
+    position: absolute;
+    top: 10;
+    left: 50;
+    padding: 10px;
+    font-size:30px;
+    color: red;
+}
+/* ここまでmenu bar  */
+
+
+.sample1{
+  background: pink;
+  width: 400px;
+  height: 650px;
+  position:absolute;	
+  bottom:75px;
+  right:0px;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.sample3{
+    position:absolute;	
+    bottom:700px;
+    right:20px;
+}
+
+.container{
+  width: 28%;
+  height: 49%;
+  position:absolute;	
+  bottom:69%;
+  right:74%;
+}
+.container img{
+width:100%;
+}
+p{
+position: absolute;
+top:46%;
+left:50%;
+transform: translate(-50%,-50%);
+padding:0;
+margin:0;
+font-size:155%;
+color: rgb(0, 0, 0);
+}
+.container .tag{
+top: 33%;
+left:33%;
+width: 30%;
+text-align: center;
+background-color: skyblue;
+font-weight: bold;
+}
+
+.m1{
+  position:absolute;	
+  width: 40%;
+  height: 55%;
+  bottom:15%;
+  right:21%;
+}
+
+.box {
+  position:absolute;
+  width: 99%;                /* 横幅を200pxに指定 */
+  height: 82%;               /* 横幅を200pxに指定 */
+  border: 1px solid #000;      /* わかりやすくボーダーを引く */
+  overflow-y: scroll;          /* 縦方向にスクロール可能にする */
+}
+
